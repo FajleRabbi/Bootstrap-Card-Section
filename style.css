@@ -1,0 +1,89 @@
+
+
+div#myTabContent {
+    width: 100%;
+}
+
+.col-md-4 {
+    float: left;
+}
+.section-card__single-item {
+    margin-bottom: 40px;
+}
+
+.secction-card__heading {
+    background-image: linear-gradient(to bottom, #2ACB64, #186F37);
+    padding: 35px 30px 70px;
+    clip-path: polygon(0 0, 100% 1%, 100% 65%, 0% 100%);
+    color: #fff;
+}
+
+.secction-card__heading h2 {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.secction-card__heading p {
+}
+
+.secction-card__body .btn {
+    padding: 10px 35px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    color: green;
+    border: 1px solid #3CDD71;
+    color: #000;
+}
+
+.secction-card__body ul {
+    margin-top: 40px;
+    padding: 0;
+}
+
+.secction-card__body li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.secction-card__body li i {
+    color: #11DD6E;
+    margin-right: 5px;
+}
+
+.secction-card__body ul li:not(.check) {
+    color: #D3D2D3;
+}
+
+.secction-card__body ul li {margin-bottom: 10px;}
+
+.secction-card__pricing {background-image: linear-gradient(to bottom, #2ACB64, #186F37);padding: 40px 0;color: #fff;margin-top: 50px;clip-path: polygon(48% 9%, 80% 21%, 100% 8%, 100% 100%, 0 100%, 0 27%, 18% 15%);position: relative;}
+
+.secction-card__pricing span {
+    display: block;
+    font-size: 30px;
+}
+
+
+.section-card .nav {
+    margin: 40px auto;
+    text-align: center;
+    border: 2px solid #11DD6E !important;
+    border-radius: 50px;
+}
+
+.section-card .nav li a {border: none !important;padding: 10px 50px;display: inline-block;border-radius: 50px;color: #333;}
+
+.section-card .nav li {
+    margin: 0;
+    padding: 0;
+}
+
+.section-card .nav li a.active {
+    background: #11DD6E;
+    color: #fff;
+}
+.section-card__single-item.active a.btn {
+    background: #11DD6E;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
